@@ -5,6 +5,7 @@ print('')
 print('')
 code = input("What's the code?"
              ,)
+# example: dGhpcyBpcyBhbiBleGFtcGxl
 print('')
 print("This is the results ===>  ", base64.b64decode(code))
 quit()
